@@ -1,0 +1,29 @@
+name: new_app  
+description: "A new Flutter project."  
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev  
+
+version: 1.0.0+1  
+
+environment:  
+  sdk: ">=2.17.0 <3.0.0" # تحديث نطاق SDK لـ Dart  
+
+dependencies:  
+  flutter:  
+    sdk: flutter  
+  dio: ^5.8.0+1  
+  cupertino_icons: ^1.0.8  
+
+dev_dependencies:  
+  flutter_test:  
+    sdk: flutter  
+  flutter_lints: ^4.0.0  
+
+flutter:  
+  uses-material-design: true  
+
+  # إضافة الأصول (assets) و التأكد من مسارها  
+  assets:  
+    - assets/ # تأكد من أن هذا المجلد موجود ويحتوي على الملفات المطلوبة  
+    # - images/a_dot_ham.jpeg # يمكن إضافة المزيد من الصور إذا كانت هناك  
+
+# يمكنك أيضًا إضافة ملاحظات أو توضيحات هنا إذا لزم الأمر.
